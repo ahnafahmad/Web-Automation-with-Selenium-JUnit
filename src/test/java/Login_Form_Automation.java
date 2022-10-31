@@ -162,6 +162,7 @@ public class Login_Form_Automation {
     public void loginUnsuccessfullWithoutUsernameAndPassword() throws InterruptedException {
 
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        Thread.sleep(1000);
 
         driver.findElement(By.cssSelector("[type=submit]")).click();
 
@@ -175,6 +176,7 @@ public class Login_Form_Automation {
     @Test
         public void forgotPassword() throws InterruptedException {
             driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+            Thread.sleep(1000);
 
             driver.findElement(By.className("orangehrm-login-forgot")).click();
             Thread.sleep(2000);
