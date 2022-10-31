@@ -30,24 +30,25 @@
  ## Prerequisite
   - Some gradle dependency is must for run this project
   These are: 
-  ```
-    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.0'
+ ```
+  // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+  implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.5.0'
  ```
  ```
-  // https://mvnrepository.com/artifact/junit/junit
-    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+ // https://mvnrepository.com/artifact/junit/junit
+ testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 ```
 ```
-   // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.5.0'
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
+implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.5.0'
 ```
 ```
-    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver
-    implementation group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4
+// https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver
+implementation group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4
 ```
-```// https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
-    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.0'
+```
+// https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
+implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '5.3.0'
 ```
 ## Testcases for this Report
 - The link of the google sheet is below,
