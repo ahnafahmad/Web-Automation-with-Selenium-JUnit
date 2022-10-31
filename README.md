@@ -5,7 +5,7 @@
 
 
 ## Framework used in this Project
- - Junit
+ - JUnit
 
  ## Project Scenarios
  - User can Login to the system.
