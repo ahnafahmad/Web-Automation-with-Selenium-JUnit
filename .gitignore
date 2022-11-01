@@ -1,4 +1,4 @@
 .gradle
 .idea
-gradlew
-build/reports
+gradle
+build
