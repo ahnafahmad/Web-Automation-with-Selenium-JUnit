@@ -50,9 +50,8 @@ public class Login_Form_Automation {
 
         WebElement dashboardMessage = driver.findElement(By.className("oxd-topbar-header-breadcrumb"));
         String actualMessage = dashboardMessage.getText();
-        String expectedMessage = "PIM";
+        String expectedMessage = "Dashboard";
         Assert.assertTrue(actualMessage.contains(expectedMessage));
-
     }
 
     //Login Unsuccessful for Wrong Username Automation
